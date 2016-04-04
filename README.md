@@ -1,4 +1,4 @@
-Approach:
+# Overview
 The basic idea behind calculating the relevance of words in the web page is firstly remove all the stop words like "are","is" etc.(Stored in stopword.txt)
 secondly assign different weights to each component of HTML page i.e. Title of page is most important so assign more weight to it. Thirdly generates ngrams from 
 from different words of string i.e. creating phrases generally of 2/3 words in length and also incresing the score based on the frequency of phrases.
